@@ -4,3 +4,8 @@ John Alassio tiene 32 y nacio en Uruguay,
 viviendo en todo el mundo.
 
 Hoy hablemos de su historia.
+
+En camara parece mas alto pero en realidad no lo es.
+
+Hoy es Trider de Olimp Trader, Desarrollador Java y estudiante de Platzi,
+en la escuela de Blockchain y Cryptomonedas para lograr ser un Developer Blockchain.
