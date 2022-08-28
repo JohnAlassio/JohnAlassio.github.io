@@ -1,50 +1,59 @@
-body
-{
-   background: white;
-   color: rgba(190, 183, 183, 0.268);   
+body {
+   background: rgb(239, 237, 235);
+   color: rgb(51, 51, 51);   
    text-align: center;
    font-family: "Arial";
-   font-size: 18px;
+   font-size: 26px;
    margin: 0;
-   padding: 0; 
+   padding: 10; 
 }
 
 #cabecera
 {
-   background: rgba(13, 13, 176, 0.958);
-   box-shadow: 0px 8px 80px 0px rgba(0,0,0,0.5);
-   color: rgba(255, 255, 255, 0.995);  
-   font-weight: absolute;
-   margin: 0.5;
-   padding: 0.2em;
+   background: rgb(33, 33, 169) ;
+   box-shadow: 0px 0px 100px 0px rgb(0, 0, 0);
+   color: rgb(255, 253, 253);  
+   font-size: larger;
+   margin: 0;
+   padding: 0.5em;
     
+}
+
+#cabecera #logo
+{
+   width: 150px;
+   vertical-align: length;
+   text-align: left;
 }
 
 #cabecera #tagline
 {
-   padding: 0 0 0 4em;
+   padding: 0 0 0 8 em;
    font-weight: normal;
-   font-size: 0.8em;
+   font-size: 1em;
 }
 
 #container
 {
-   width: 75%;
-   padding: 2;
-   text-align: left;
-   border: 1px solid rgba(84, 234, 9, 0.626); 
+   width: 80%;
+   padding: 10;
+   text-align: cantre;
+   border: 1px solid rgba(0, 0, 0, 0.375); 
    margin: 0 auto;
 }
 
 #container h1 
 {
-   background-color: rgba(59, 63, 66, 0.349);
-   font-size: 50px;
-   color: rgb(246, 246, 246);
+   font-size: inherit;
 }
 
 #post
-{
-   background: black;
+{   
+   background: rgba(255, 232, 21, 0.982);
    padding: 1em;
+   box-shadow: 0px 0px 100px 0px rgb(0, 0, 0);
+   color: rgb(33, 33, 169) ;  
+   font-weight: bold;
+   margin: 00;
+   
 }
