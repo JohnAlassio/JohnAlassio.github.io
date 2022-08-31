@@ -6,23 +6,38 @@ body
    font-family: "Arial";
    font-size: 18px;
    margin: 0;
-   padding: 0; 
+   padding: 10; 
+}
+
+#body #banner
+{
+   width: 100%;
+   vertical-align: length;
+   text-align: left;
 }
 
 #cabecera
 {
    background: rgba(13, 13, 176, 0.958);
-   box-shadow: 0px 8px 80px 0px rgba(0,0,0,0.5);
-   color: rgba(255, 255, 255, 0.995);  
+   box-shadow: 0px 8px 100px 0px rgba(0,0,0,0.5);
+   color: rgba(241, 233, 233, 0.995);  
    font-weight: absolute;
-   margin: 0.5;
-   padding: 0.2em;
+   margin: 0;
+   padding: 0.5em;
     
 }
 
+#cabecera #logo
+{
+   width: 170px;
+   vertical-align: length;
+   text-align: left;
+}
+
+
 #cabecera #tagline
 {
-   padding: 0 0 0 4em;
+   padding: 0 0 0 8em;
    font-weight: normal;
    font-size: 0.8em;
 }
@@ -30,7 +45,7 @@ body
 #container
 {
    width: 75%;
-   padding: 2;
+   padding: 10;
    text-align: left;
    border: 1px solid rgba(84, 234, 9, 0.626); 
    margin: 0 auto;
@@ -40,11 +55,15 @@ body
 {
    background-color: rgba(59, 63, 66, 0.349);
    font-size: 50px;
-   color: rgb(246, 246, 246);
+   color: rgb(239, 230, 230);
 }
 
 #post
 {
    background: black;
    padding: 1em;
+   box-shadow: 0px 0px 100px 0px rgb(0, 0, 0);
+   color: rgb(33, 33, 169) ;  
+   font-weight: bold;
+   margin: 00;
 }
