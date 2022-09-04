@@ -1,39 +1,22 @@
 body {
-   background: rgb(239, 237, 235);
-   color: rgb(51, 51, 51);   
+   
+   background: rgb(233, 232, 239);
+   color: rgb(143, 110, 110);   
    text-align: center;
    font-family: "Arial";
-<<<<<<< HEAD
    font-size: 20px;
    margin: 0;
    padding: 100; 
-}
 
-#body #banner
-{
-   width: 100%;
-   vertical-align: length;
-   text-align: left;
-=======
-   font-size: 26px;
-   margin: 0;
-   padding: 10; 
->>>>>>> 55caad7f5629f5396b2f95b8699949257cf4d852
 }
 
 #cabecera
 {
-<<<<<<< HEAD
    background: rgba(13, 13, 176, 0.958);
-   box-shadow: 0px 8px 200px 0px rgba(10, 10, 10, 0.876);
+   box-shadow: 0px 5px 200px 0px rgb(0, 0, 0);
    color: rgba(241, 233, 233, 0.886);  
    font-weight: absolute;
-=======
-   background: rgb(33, 33, 169) ;
-   box-shadow: 0px 0px 100px 0px rgb(0, 0, 0);
-   color: rgb(255, 253, 253);  
    font-size: larger;
->>>>>>> 55caad7f5629f5396b2f95b8699949257cf4d852
    margin: 0;
    padding: 0.5em;
     
@@ -41,25 +24,16 @@ body {
 
 #cabecera #logo
 {
-<<<<<<< HEAD
-   width: 200px;
-=======
-   width: 150px;
->>>>>>> 55caad7f5629f5396b2f95b8699949257cf4d852
+   width: 180px;
    vertical-align: length;
    text-align: left;
 }
 
-<<<<<<< HEAD
 
 #cabecera #tagline
 {
-   padding: 0 0 0 8em;
-=======
-#cabecera #tagline
-{
-   padding: 0 0 0 8 em;
->>>>>>> 55caad7f5629f5396b2f95b8699949257cf4d852
+   padding: 0 0 0 6em;
+   box-shadow: 0px 8px 200px 10px rgba(0, 0, 0, 0.675);
    font-weight: normal;
    font-size: 1em;
 }
@@ -68,44 +42,27 @@ body {
 {
    width: 80%;
    padding: 10;
-<<<<<<< HEAD
    text-align: left;
    border: 1px solid rgba(84, 234, 9, 0.626); 
-=======
-   text-align: cantre;
-   border: 1px solid rgba(0, 0, 0, 0.375); 
->>>>>>> 55caad7f5629f5396b2f95b8699949257cf4d852
    margin: 0 auto;
 }
 
 #container h1 
 {
-<<<<<<< HEAD
-   background-color: rgba(61, 88, 108, 0.349);
-   font-size: 25px;
-   color: rgba(239, 230, 230, 0.488);
+   background-color: rgba(127, 150, 168, 0.349);
+   font-size: 20px;
+   color: rgba(182, 172, 172, 0.886);
 }
 
-#post
-{
-   background: black;
-   padding: 0.5em;
-   box-shadow: 0px 10px 200px 0px rgb(10, 10, 10);
-   color: rgba(215, 215, 229, 0.959) ;  
-   font-weight: bold;
-   margin: auto;
-=======
-   font-size: inherit;
-}
 
 #post
 {   
-   background: rgba(255, 232, 21, 0.982);
-   padding: 1em;
-   box-shadow: 0px 0px 100px 0px rgb(0, 0, 0);
-   color: rgb(33, 33, 169) ;  
+   background: rgb(18, 18, 136);
+   padding: 0.7em;
+   box-shadow: 0px 0px 250px 0px rgba(0, 0, 0, 0.619);
+   color: rgb(0, 0, 0) ;  
    font-weight: bold;
    margin: 00;
+   font-size: inherit;
    
->>>>>>> 55caad7f5629f5396b2f95b8699949257cf4d852
 }
