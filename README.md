@@ -3,7 +3,7 @@ JohnAlassio.github.io
 <<<<<<< HEAD
 Bienvenidos a mi Portafolio
 
-https://imgur.com/a/2o64fhv
+![](https://imgur.com/a/2o64fhv)
 =======
 Un blog increible para el curso de Git y GitHub de Platzi
 https://imgur.com/a/2o64fhv
