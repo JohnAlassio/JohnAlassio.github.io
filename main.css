@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62,5%;
+}
+body {
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-size: 0.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+header { 
+    width: 100%;
+    height: 3rem;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+header nav {
+    display: flex;
+    justify-content: flex-end;            
+}
+/* estas son las posiciones del contenido en el navbar */
+header nav .nav-right-section {
+    width: 17rem;
+    height: 0 auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+nav .nav-right-section a {
+    margin-right: 0.5rem;
+    color:#000000c8;
+}
+/* esto es el menu del navbar */
+nav .nav-right-section .menu-icon {
+    background-image: url('https://icons.veryicon.com/png/o/miscellaneous/offerino-icons/app-menu.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 2.8rem;
+    height: 1.5rem;
+    cursor:pointer;
+}
+nav .nav-right-section .menu-icon:hover {
+    border:  0.5rem transparent #747373;
+    box-shadow: 0 0.5rem 0.7rem #00000165;
+    color: #3c4043;
+    border-radius: 100%;
+}
+nav .nav-right-section img {
+    border-radius: 50%;
+    margin-left: 1rem;
+}
+/* eta es la posicion del main con el navbar */
+main {
+    margin-top: 1rem;
+    text-align: center;
+}
+/* esta es la relacion de la posicion del Google_2011_logo con el input de search */
+main .main-logo {
+    width: 50rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+/* este es el tamanio del Google_2011_logo */
+main .main-logo img {
+    width: 19rem;
+}
+main .main-input {
+    width: 5rem;
+    height: 3rem;
+    padding: 1.7rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+main .main-input-container {
+    width: 80rem;
+    border-radius: 150rem;
+    border: 0.09rem solid #17191a1f;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+main .main-input input {
+    width: 29rem;
+    height: 2.7rem;
+    border: 0.1rem;
+    outline: none;
+    justify-content: center;
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 50%;
+    flex-wrap: wrap;
+ } 
+ /* el :hover es un seudoelemento de css, y va hacer un efecto cuando pase el cursor por ensima, box-shadow lo que hace es darle sombra al elemento */
+main .main-input-container:hover {
+    box-shadow: 0 0.4rem 0.8rem 0 #2021242c;
+    border-color: #00000016;
+    
+}
+main .main-input .search-icon {
+    width: 1.5rem;
+    height: 3rem;
+    background-image: url('https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-27.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    
+}
+main .main-input .micro-icon {
+    width: 1.2rem;
+    height: 3rem;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/e8/Google_mic.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+  
+}  
+main .main-input .camera-icon {
+    width: 1.6rem;
+    height: 3rem;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/f9/Google_Lens_-_new_logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: grid;
+    grid-template-columns: 1fr 1fr;    
+    align-items: flex-end;
+    cursor: pointer;
+}  
+/* esta es la posicion de los botones  */
+main .main-buttons {
+    width: 50rem;
+    margin: 0 auto;
+}
+main .main-buttons div {
+    display: inline-block;
+}
+/* esto es el desing de los botones */
+main .main-buttons button {
+    height: 2.3rem;
+    background-color: #f8f9fa;
+    border: 0;
+    font-size: 0.77rem;
+    color: #3c4043;
+    border-radius: 0.3rem;
+    padding: 0 1rem;
+    margin-right: 0.5rem;
+}
+main .main-buttons button:hover {
+    border:  0.05rem solid #2c2c2c26;
+    box-shadow: 0 0.1rem 0.1rem #00000112;/* esto es la sombra del botton */ 
+    color: #3c4043;
+}
+/* con display grid es generar la cuadricula del contenido del proyecto, todo lo que este dentro del grid va aser parte de la cuadricula  */
+footer {
+    width: 100%;
+    height: 3rem;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 0.8rem;
+    background-color: #f2f2f2;
+    border-top: 0.1rem solid #dadce0;
+}
+footer ul {
+    margin: 1rem;
+    list-style: none;
+    display: flex;
+    padding-left: 1rem;
+}
+   
+footer .footer-left {
+    justify-self: left;    
+}
+footer .footer-rigth {
+    justify-self: right;    
+}
+footer ul li a {
+    margin: 0.5rem;
+    color: #5f6368;
+}
